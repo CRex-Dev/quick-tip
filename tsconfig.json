@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    // The node:test suite in src/lib imports sibling modules with explicit
+    // .ts extensions, which is what `node --experimental-strip-types` needs.
+    "allowImportingTsExtensions": true,
+    "types": ["node"]
+  }
+}
