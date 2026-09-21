@@ -54,6 +54,12 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "77521316-aafe-405a-8e5f-dc2d9515b3c0"
+      }
+    },
+    "owner": "c.rex-devs"
   }
 }
